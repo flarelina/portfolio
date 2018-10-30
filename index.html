@@ -1,1 +1,269 @@
-hey
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flarelina</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+  <link rel="manifest" href="fav/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" type="text/css" href="css/flare-style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+
+      <a href="#home" class="w3-wide">
+      	<img src="images/flare-logo.png" id="flogo">
+      </a>
+
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#experiments" class="w3-bar-item w3-button">EXPERIMENTS</a>
+        <a href="#blogs" class="w3-bar-item w3-button">BLOGS</a>
+        <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+      </div>
+
+      <a href="javascript:void(0)" class="w3-bar-item w3button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#experiments" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+    <a href="#blogs" onclick="w3_close()" class="w3-bar-item w3-button">BLOGS</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  </nav>
+
+  <header class="fheader w3-display-container" id="home">
+    <div class="w3-row w3-display-middle" style="width: 50%">
+        <div class="w3-display-container">
+            <img class="w3-left w3-hide-small w3-hide-medium favatar" src="images/flare.png" >
+            <span>
+             <p class="w3-xxxlarge w3-pacifico" id="fname">Hi, It's Flarelina!</p>
+             <h4>A <b>Web Developer</b> based in Manila, Philippines</h4>  
+            </span>
+        </div>
+    </div>
+  </header>
+
+
+  <!--ABOUT SECTION-->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+    <p class="w3-xlarge w3-pacifico w3-center">What I love to do</p>
+    
+    <div class="w3-row w3-padding-32">
+      <div class="w3-half w3-container">
+        <div class="w3-center">
+          <img src="images/code.png" style="width: 250px;"/>
+        </div>
+      </div>
+      <div class="w3-half w3-container">
+        <h3 class="w3-center">Web Development</h3>
+        <p>I develop web-based application to help individual/businesses to grow by making their manual jobs automated and accessible anytime and anywhere. I care about the efficiency, functionality, security and user experience. Web-based applications solve tons of different business problems so make sure you have it on your business.</p>
+      </div>
+    </div>
+
+    <div class="w3-row w3-padding-32">
+      <div class="w3-half w3-container w3-hide-large w3-hide-medium">
+        <div class="w3-center">
+          <img src="images/blog.png" style="width: 250px">
+        </div>
+      </div>
+
+      <div class="w3-half w3-container">
+        <h3 class="w3-center">Writing/Blogging</h3>
+        <p>Playing words is one of my favorite game. I write impactful articles to teach, inspire and motivate the readers. I love sharing my thoughts about random things to live a meaningful life.</p>      
+      </div>
+    
+      <div class="w3-half w3-container w3-hide-small">
+        <div class="w3-center">
+          <img src="images/blog.png" style="width: 250px">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row w3-padding-32">
+      <div class="w3-half w3-container">
+        <div class="w3-center">
+          <img src="images/mentor.png" style="width: 250px">
+        </div>
+      </div>
+      <div class="w3-half w3-container">
+        <h3 class="w3-center">Mentoring</h3>
+        <p>I am fond of making complex and difficult concepts easy to understand by connecting them with the usual idea we encounter everyday. I continue to improve my learning skill so I can teach and help others too.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!--EXPERIMENTS-->
+  <div class="w3-content w3-container w3-padding-64" id="experiments">
+    <p class="w3-xlarge w3-pacifico w3-center">Experiments</p>
+    
+    <div class="w3-row-padding w3-padding-32">
+
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-hover-shadow">
+          <header class="w3-container w3-orange">
+            <h4 style="color: white">Dripts</h4>
+          </header>
+          <div class="w3-container">
+            <p>
+              A drawing app developed with HTML5 and pure Javascript. Just practicing the basics.
+            </p>
+            <p class="w3-center">
+              <a href="https://github.com/flarelina/dripts" target="_blank" class="w3-button">DISCOVER</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-hover-shadow">
+          <header class="w3-container w3-orange">
+            <h4 style="color: white">Dripts</h4>
+          </header>
+          <div class="w3-container">
+            <p>
+              A drawing app developed with HTML5 and pure Javascript. Just practicing the basics.
+            </p>
+            <p class="w3-center">
+              <a href="https://github.com/flarelina/dripts" target="_blank" class="w3-button">DISCOVER</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-hover-shadow">
+          <header class="w3-container w3-orange">
+            <h4 style="color: white">Dripts</h4>
+          </header>
+          <div class="w3-container">
+            <p>
+              A drawing app developed with HTML5 and pure Javascript. Just practicing the basics.
+            </p>
+            <p class="w3-center">
+              <a href="https://github.com/flarelina/dripts" target="_blank" class="w3-button">DISCOVER</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--BLOGS-->
+  <div class="w3-content w3-container w3-padding-64" id="blogs">
+    <p class="w3-xlarge w3-pacifico w3-center">Featured Blogs</p>
+    
+    <div class="w3-row-padding w3-padding-32">
+
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-hover-shadow">
+          <img src="images/blog1.png" alt="Norway" style="width:100%">
+          <div class="w3-container">
+            <p>Convert your .TTF or .OTF file using Font Squirrel Web Font Generator. Note: If Font Squirrel cannot convert your file, try using other web font generator.</p>
+            <p class="w3-center">
+              <a href="https://flarecoder.000webhostapp.com/how-to-install-custom-fonts-in-wordpress/" class="w3-button" target="_blank">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-hover-shadow">
+          <img src="images/blog1.png" alt="Norway" style="width:100%">
+          <div class="w3-container">
+            <p>Convert your .TTF or .OTF file using Font Squirrel Web Font Generator. Note: If Font Squirrel cannot convert your file, try using other web font generator.</p>
+            <p class="w3-center">
+              <a href="https://flarecoder.000webhostapp.com/how-to-install-custom-fonts-in-wordpress/" class="w3-button" target="_blank">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-hover-shadow">
+          <img src="images/blog1.png" alt="Norway" style="width:100%">
+          <div class="w3-container">
+            <p>Convert your .TTF or .OTF file using Font Squirrel Web Font Generator. Note: If Font Squirrel cannot convert your file, try using other web font generator.</p>
+            <p class="w3-center">
+              <a href="https://flarecoder.000webhostapp.com/how-to-install-custom-fonts-in-wordpress/" class="w3-button" target="_blank">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+   </div>
+
+  </div>
+
+  <!--CONTACT-->
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+
+    <p class="w3-xlarge w3-pacifico w3-center">Get in touch</p>
+    <p class="w3-center">I would love to talk with you!</p>
+    <div class="w3-xxxlarge w3-section w3-center">
+      <a href="https://www.facebook.com/flarelina" target="_blank">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      </a>
+      <a href="https://twitter.com/FlareLina" target="_blank">
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/mariajolinacoronel/" target="_blank">
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </a>
+      <a href="https://github.com/flarelina" target="_blank">
+        <i class="fa fa-github w3-hover-opacity"></i>
+      </a>
+    </div>
+
+   </div>
+
+  </div>
+
+
+  <footer>
+    <p class="w3-center">Developed by 
+      <a href="#"><b>Flarelina</b></a>
+      . 2018. All rights reserved.
+    </p>
+  </footer>
+   
+   <!--script-->
+  <script src="js/flare-script.js"></script>
+</body>
+
+</html>

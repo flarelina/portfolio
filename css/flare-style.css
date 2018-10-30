@@ -1,0 +1,47 @@
+body,h1,h2,h3,h4,h5,h6 {
+	font-family: 'Yantramanav', sans-serif;
+	color: #ef5d25;
+}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+  	scroll-behavior: smooth;
+
+}
+/* Full height image header */
+.fheader {
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+}
+.w3-bar {
+	padding: 15px;
+}
+.w3-button {
+	color: #ef5d25;
+    padding: 16px,50px;
+}
+#flogo{
+	width: 40px;
+}
+
+
+/*header*/
+.w3-pacifico{
+	font-family: 'Pacifico', cursive;
+}
+#fname{
+	margin-top: 0px;
+	margin-bottom: -20px;
+}
+.favatar{
+	height: 150px;
+}
+
+/*footer*/
+footer{
+	padding: 5px;
+}
+a{
+	text-decoration: none;
+}
